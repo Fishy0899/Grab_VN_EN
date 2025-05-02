@@ -15,7 +15,7 @@
   width: 140px;
   top: 40%;
   bottom: 12.17%;
-  left: calc(50% - 65.5px);
+  left: calc(50% - 64.5px);
 }
 .got-2-minutes {
   position: relative;
@@ -35,7 +35,7 @@
 }
 .description-with-bg {
   height: 23px;
-  padding: 0 3px;
+  padding: 0 2px;
   box-sizing: border-box;
   position: relative;
 }
@@ -69,7 +69,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 2px;
+  gap: var(--gap-11xs);
   z-index: 1;
 }
 .every-1000-or {
@@ -124,7 +124,7 @@
   align-items: center;
   justify-content: flex-start;
   z-index: 4;
-  font-size: 35px;
+  font-size: var(--font-size-16xl);
 }
 .animation1-icon {
   width: 450px;
@@ -144,7 +144,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 46px 46px 40px;
+  padding: var(--padding-27xl) var(--padding-27xl) var(--padding-21xl);
   box-sizing: border-box;
   position: relative;
   gap: 313px;
@@ -153,9 +153,9 @@
   background-repeat: no-repeat;
   background-position: top;
   text-align: left;
-  font-size: 17px;
-  color: #005339;
-  font-family: Inter;
+  font-size: var(--font-size-mid);
+  color: var(--color-darkslategray);
+  font-family: var(--font-inter);
 }
 .thats-why-the {
   font-weight: 500;
@@ -200,11 +200,11 @@
   width: 334px;
   height: 160px;
   position: relative;
-  font-size: 35px;
+  font-size: var(--font-size-16xl);
   line-height: 40px;
   font-weight: 800;
   font-family: inherit;
-  color: #005339;
+  color: var(--color-darkslategray);
   display: inline-block;
 }
 .screen3-title {
@@ -221,7 +221,7 @@
   justify-content: flex-start;
   gap: 1px;
   z-index: 2;
-  color: #00b14f;
+  color: var(--color-forestgreen);
 }
 .group-icon1 {
   position: absolute;
@@ -235,7 +235,7 @@
 }
 .ninh-thun {
   font-weight: 800;
-  font-family: Inter;
+  font-family: var(--font-inter);
 }
 .is-home-to {
   margin: 0;
@@ -261,7 +261,7 @@
   bottom: 29.26%;
   left: calc(50% - 126.5px);
   z-index: 3;
-  font-size: 11px;
+  font-size: var(--font-size-2xs);
 }
 .button1-icon,
 .greenline-icon1 {
@@ -296,7 +296,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 60px 46px 0;
+  padding: var(--padding-41xl) var(--padding-27xl) 0;
   box-sizing: border-box;
   position: relative;
   gap: 48px;
@@ -305,9 +305,9 @@
   background-repeat: no-repeat;
   background-position: top;
   text-align: left;
-  font-size: 17px;
-  color: #005339;
-  font-family: Inter;
+  font-size: var(--font-size-mid);
+  color: var(--color-darkslategray);
+  font-family: var(--font-inter);
 }
 .greenline-icon2 {
   width: 317.6px;
@@ -333,7 +333,7 @@
 }
 .youll-also-support {
   font-weight: 500;
-  font-family: Inter;
+  font-family: var(--font-inter);
 }
 .youll-also-support-container {
   width: 307px;
@@ -358,12 +358,12 @@
   margin: 0;
   width: 345px;
   height: 200px;
-  font-size: 35px;
+  font-size: var(--font-size-16xl);
   letter-spacing: 0.01em;
   line-height: 40px;
   font-weight: 800;
   font-family: inherit;
-  color: #005339;
+  color: var(--color-darkslategray);
 }
 .screen2-title {
   width: 358px;
@@ -377,9 +377,9 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 2px;
+  gap: var(--gap-11xs);
   z-index: 3;
-  color: #00b14f;
+  color: var(--color-forestgreen);
 }
 .group-icon2 {
   position: absolute;
@@ -414,7 +414,7 @@
   bottom: 27.4%;
   left: calc(50% - 127.2px);
   z-index: 4;
-  font-size: 11px;
+  font-size: var(--font-size-2xs);
 }
 .button2-icon {
   cursor: pointer;
@@ -438,7 +438,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 60px 46px;
+  padding: var(--padding-41xl) var(--padding-27xl);
   box-sizing: border-box;
   position: relative;
   gap: 51px;
@@ -447,9 +447,9 @@
   background-repeat: no-repeat;
   background-position: top;
   text-align: left;
-  font-size: 17px;
-  color: #005339;
-  font-family: Inter;
+  font-size: var(--font-size-mid);
+  color: var(--color-darkslategray);
+  font-family: var(--font-inter);
 }
 .thats-not-all {
   margin: 0;
@@ -464,7 +464,7 @@
 .youll-be-supporting-container {
   align-self: stretch;
   position: relative;
-  font-size: 17px;
+  font-size: var(--font-size-mid);
   letter-spacing: -0.01em;
   line-height: 23px;
 }
@@ -489,7 +489,7 @@
 .screen4tophalf {
   align-self: stretch;
   height: 372px;
-  padding: 46px 46px 0;
+  padding: var(--padding-27xl) var(--padding-27xl) 0;
   box-sizing: border-box;
   position: relative;
   background-image: url(./public/screen4tophalf@3x.png);
@@ -497,9 +497,9 @@
   background-repeat: no-repeat;
   background-position: top;
   text-align: left;
-  font-size: 35px;
-  color: #005339;
-  font-family: Inter;
+  font-size: var(--font-size-16xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-inter);
 }
 .can-you-guess {
   width: 288px;
@@ -539,7 +539,7 @@
 .since-2021-grab {
   width: 242px;
   position: relative;
-  font-size: 17px;
+  font-size: var(--font-size-mid);
   letter-spacing: -0.01em;
   line-height: 23px;
   font-weight: 500;
@@ -562,7 +562,7 @@
   justify-content: flex-start;
   gap: 10px;
   z-index: 2;
-  font-size: 35px;
+  font-size: var(--font-size-16xl);
 }
 .button3-icon {
   cursor: pointer;
@@ -656,7 +656,7 @@
   z-index: 5;
   text-align: center;
   font-size: 21px;
-  color: #005339;
+  color: var(--color-darkslategray);
 }
 .animation4-icon {
   width: 449.6px;
@@ -677,7 +677,7 @@
 .screen4bottomhalf {
   align-self: stretch;
   height: 884px;
-  padding: 40px 46px;
+  padding: var(--padding-21xl) var(--padding-27xl);
   box-sizing: border-box;
   position: relative;
   gap: 69px;
@@ -686,9 +686,9 @@
   background-repeat: no-repeat;
   background-position: top;
   text-align: left;
-  font-size: 17px;
-  color: #fff;
-  font-family: Inter;
+  font-size: var(--font-size-mid);
+  color: var(--color-white);
+  font-family: var(--font-inter);
 }
 .grab-vn-en {
   width: 450px;
