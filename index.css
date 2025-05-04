@@ -310,13 +310,13 @@
   font-family: var(--font-inter);
 }
 .greenline-icon2 {
-  width: 317.6px;
+  width: 318.6px;
   height: 64.05%;
   position: absolute;
   margin: 0 !important;
   top: 26.94%;
   bottom: 9.01%;
-  left: calc(50% - 168.5px);
+  left: calc(50% - 169.5px);
   max-height: 100%;
   z-index: 0;
 }
@@ -429,8 +429,12 @@
   max-height: 100%;
   z-index: 5;
 }
+.quick-quiz,
 .screen3 {
   align-self: stretch;
+  position: relative;
+}
+.screen3 {
   height: 1043px;
   overflow: hidden;
   flex-shrink: 0;
@@ -440,7 +444,6 @@
   justify-content: flex-start;
   padding: var(--padding-41xl) var(--padding-27xl);
   box-sizing: border-box;
-  position: relative;
   gap: 51px;
   background-image: url(./public/screen3@3x.png);
   background-size: cover;
@@ -451,15 +454,12 @@
   color: var(--color-darkslategray);
   font-family: var(--font-inter);
 }
-.thats-not-all {
+.quick-quiz {
   margin: 0;
-  width: 370px;
-  position: relative;
   font-size: inherit;
   line-height: 40px;
   font-weight: 800;
   font-family: inherit;
-  display: inline-block;
 }
 .youll-be-supporting-container {
   align-self: stretch;
@@ -516,34 +516,25 @@
 .here {
   text-decoration: underline;
 }
+.goes-to-show-container,
+.since-2021-grab {
+  letter-spacing: -0.01em;
+  line-height: 23px;
+  display: inline-block;
+}
 .goes-to-show-container {
   width: 272px;
   position: absolute;
   margin: 0 !important;
   top: 70.81%;
   left: calc(50% - 180px);
-  letter-spacing: -0.01em;
-  line-height: 23px;
-  display: inline-block;
   z-index: 1;
-}
-.quick-quiz {
-  margin: 0;
-  align-self: stretch;
-  position: relative;
-  font-size: inherit;
-  line-height: 40px;
-  font-weight: 800;
-  font-family: inherit;
 }
 .since-2021-grab {
   width: 242px;
   position: relative;
   font-size: var(--font-size-mid);
-  letter-spacing: -0.01em;
-  line-height: 23px;
   font-weight: 500;
-  display: inline-block;
 }
 .button3-icon,
 .screen5-title {
